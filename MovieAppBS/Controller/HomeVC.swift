@@ -21,7 +21,7 @@ class HomeVC: UIViewController, UITextFieldDelegate {
     lazy var searchField: UITextField = {
         let textField = UITextField()
         textField.placeholder = "Search Movie Here"
-        textField.text = "Marvel"
+        textField.text = ""
         textField.font = UIFont.boldSystemFont(ofSize: 14)
         textField.textColor = .black
         textField.autocorrectionType = .no
